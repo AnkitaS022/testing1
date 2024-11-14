@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello testing print
-        run: echo Hello, world!
+        run: echo Hello, worlddd!
 
       - name: Run a multi-line script
         run: |
