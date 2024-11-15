@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME}}/ankita2209:action
+          tags: ${{ secrets.DOCKERHUB_USERNAME}}/django-todo:actions
